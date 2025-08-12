@@ -1,0 +1,11 @@
+ /* 
+Divider после заголовков
+*/
+
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: rgb(120,120,120);
+    display: block;
+}

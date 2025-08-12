@@ -1,0 +1,488 @@
+{
+  "altLinkFields": [],
+  "CSVPaths": "",
+  "dateFormat": "YYYY-MM-DD",
+  "dataviewNoteField": "up",
+  "dateNoteAddMonth": "",
+  "dateNoteAddYear": "",
+  "enableAlphaSort": true,
+  "limitWriteBCCheckboxes": [
+    "category",
+    "up",
+    "webdev",
+    "obsidian",
+    "topic",
+    "issue"
+  ],
+  "CHECKBOX_STATES_OVERWRITTEN": false,
+  "indexNotes": [
+    ""
+  ],
+  "namingSystemField": "",
+  "namingSystemRegex": "",
+  "namingSystemSplit": ".",
+  "namingSystemEndsWithDelimiter": false,
+  "useAllMetadata": true,
+  "openMatrixOnLoad": true,
+  "openDuckOnLoad": false,
+  "openDownOnLoad": true,
+  "parseJugglLinksWithoutJuggl": false,
+  "showNameOrType": true,
+  "showRelationType": true,
+  "regexNoteField": "",
+  "rlLeaf": true,
+  "showAllPathsIfNoneToIndexNote": false,
+  "showAllAliases": true,
+  "showBCsInEditLPMode": false,
+  "showImpliedRelations": true,
+  "showTrail": true,
+  "showJuggl": false,
+  "sortByNameShowAlias": false,
+  "squareDirectionsOrder": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "limitTrailCheckboxes": [
+    "up",
+    "same",
+    "down",
+    "next",
+    "prev",
+    "category",
+    "webdev",
+    "obsidian"
+  ],
+  "limitJumpToFirstFields": [
+    "category",
+    "up",
+    "webdev",
+    "obsidian",
+    "topic",
+    "issue"
+  ],
+  "showAll": "All",
+  "threadIntoNewPane": false,
+  "threadingDirTemplates": {
+    "up": "",
+    "same": "",
+    "down": "",
+    "next": "",
+    "prev": ""
+  },
+  "trailSeperator": "→",
+  "treatCurrNodeAsImpliedSibling": false,
+  "showWriteAllBCsCmd": false,
+  "visGraph": "Force Directed Graph",
+  "visRelation": "Parent",
+  "visClosed": "Real",
+  "visAll": "All",
+  "showUpInJuggl": false,
+  "is_dirty": false,
+  "edge_fields": [
+    {
+      "label": "up"
+    },
+    {
+      "label": "down"
+    },
+    {
+      "label": "same"
+    },
+    {
+      "label": "next"
+    },
+    {
+      "label": "prev"
+    },
+    {
+      "label": "category"
+    },
+    {
+      "label": "issue"
+    },
+    {
+      "label": "topic"
+    }
+  ],
+  "edge_field_groups": [
+    {
+      "label": "ups",
+      "fields": [
+        "up",
+        "category"
+      ]
+    },
+    {
+      "label": "downs",
+      "fields": [
+        "down",
+        "issue"
+      ]
+    },
+    {
+      "label": "sames",
+      "fields": [
+        "same",
+        "topic"
+      ]
+    },
+    {
+      "label": "nexts",
+      "fields": [
+        "next"
+      ]
+    },
+    {
+      "label": "prevs",
+      "fields": [
+        "prev"
+      ]
+    }
+  ],
+  "implied_relations": {
+    "transitive": [
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "up"
+          }
+        ],
+        "close_field": "down",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "down"
+          }
+        ],
+        "close_field": "up",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "same"
+          }
+        ],
+        "close_field": "same",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "next"
+          }
+        ],
+        "close_field": "prev",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "prev"
+          }
+        ],
+        "close_field": "next",
+        "close_reversed": true
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "chain": [
+          {
+            "field": "up"
+          },
+          {
+            "field": "down"
+          }
+        ],
+        "close_reversed": false,
+        "close_field": "same"
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "chain": [
+          {
+            "field": "same"
+          },
+          {
+            "field": "same"
+          }
+        ],
+        "close_reversed": false,
+        "close_field": "same"
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "chain": [
+          {
+            "field": "same"
+          },
+          {
+            "field": "up"
+          }
+        ],
+        "close_reversed": false,
+        "close_field": "up"
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "close_field": "issue",
+        "chain": [
+          {
+            "field": "category"
+          }
+        ],
+        "close_reversed": true
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "close_field": "category",
+        "chain": [
+          {
+            "field": "issue"
+          }
+        ],
+        "close_reversed": true
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "close_field": "topic",
+        "chain": [
+          {
+            "field": "topic"
+          }
+        ],
+        "close_reversed": true
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "chain": [
+          {
+            "field": "category"
+          },
+          {
+            "field": "issue"
+          }
+        ],
+        "close_reversed": false,
+        "close_field": "topic"
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "chain": [
+          {
+            "field": "topic"
+          },
+          {
+            "field": "topic"
+          }
+        ],
+        "close_reversed": false,
+        "close_field": "topic"
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "chain": [
+          {
+            "field": "topic"
+          },
+          {
+            "field": "category"
+          }
+        ],
+        "close_reversed": false,
+        "close_field": "category"
+      }
+    ]
+  },
+  "explicit_edge_sources": {
+    "typed_link": {},
+    "list_note": {
+      "default_neighbour_field": ""
+    },
+    "tag_note": {
+      "default_field": ""
+    },
+    "regex_note": {
+      "default_field": "up"
+    },
+    "dendron_note": {
+      "enabled": false,
+      "default_field": "up",
+      "delimiter": ".",
+      "display_trimmed": false
+    },
+    "johnny_decimal_note": {
+      "enabled": false,
+      "delimiter": ".",
+      "default_field": "up"
+    },
+    "date_note": {
+      "enabled": false,
+      "date_format": "yyyy-MM-dd",
+      "default_field": "next",
+      "stretch_to_existing": false
+    }
+  },
+  "views": {
+    "page": {
+      "all": {
+        "sticky": false,
+        "readable_line_width": true
+      },
+      "trail": {
+        "enabled": true,
+        "format": "grid",
+        "selection": "all",
+        "default_depth": 25,
+        "no_path_message": "This note has no real or implied parents",
+        "show_controls": true,
+        "merge_fields": false,
+        "field_group_labels": [
+          "ups"
+        ],
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        }
+      },
+      "prev_next": {
+        "enabled": true,
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "field_group_labels": {
+          "prev": [
+            "prevs"
+          ],
+          "next": [
+            "nexts"
+          ]
+        }
+      }
+    },
+    "side": {
+      "matrix": {
+        "collapse": false,
+        "edge_sort_id": {
+          "field": "basename",
+          "order": 1
+        },
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "show_attributes": [
+          "source",
+          "implied_kind",
+          "round"
+        ],
+        "field_group_labels": [
+          "ups",
+          "downs",
+          "sames",
+          "nexts",
+          "prevs"
+        ]
+      },
+      "tree": {
+        "collapse": false,
+        "show_attributes": [],
+        "merge_fields": false,
+        "field_group_labels": [
+          "downs"
+        ],
+        "edge_sort_id": {
+          "field": "basename",
+          "order": 1
+        },
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        }
+      }
+    },
+    "codeblocks": {
+      "show_node_options": {
+        "ext": false,
+        "folder": false,
+        "alias": false
+      }
+    }
+  },
+  "commands": {
+    "rebuild_graph": {
+      "notify": true,
+      "trigger": {
+        "note_save": false,
+        "layout_change": false
+      }
+    },
+    "list_index": {
+      "default_options": {
+        "fields": [],
+        "indent": "  ",
+        "link_kind": "wiki",
+        "show_attributes": [],
+        "field_group_labels": [],
+        "edge_sort_id": {
+          "order": 1,
+          "field": "basename"
+        },
+        "show_node_options": {
+          "ext": false,
+          "alias": false,
+          "folder": false
+        }
+      }
+    },
+    "freeze_implied_edges": {
+      "default_options": {
+        "destination": "frontmatter"
+      }
+    },
+    "thread": {
+      "default_options": {
+        "destination": "frontmatter",
+        "target_path_template": "{{field}} of {{current}}"
+      }
+    }
+  },
+  "suggestors": {
+    "edge_field": {
+      "enabled": false,
+      "trigger": "\\"
+    }
+  },
+  "debug": {
+    "level": "INFO"
+  }
+}

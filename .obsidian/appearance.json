@@ -1,0 +1,18 @@
+{
+  "accentColor": "#ce9392",
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "cirse,Inter",
+  "textFontFamily": "Cambria,Inter,cirse",
+  "monospaceFontFamily": "gost type b",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "baseFontSize": 14,
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "divider-after-header",
+    "extended-colorschemes",
+    "long-file-name",
+    "justify text"
+  ]
+}

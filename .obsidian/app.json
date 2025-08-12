@@ -1,0 +1,14 @@
+{
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "source",
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "Attachments",
+  "userIgnoreFilters": [
+    "Attachments/",
+    "Templates/"
+  ],
+  "showInlineTitle": false,
+  "newFileFolderPath": "_inbox",
+  "foldHeading": true,
+  "strictLineBreaks": true
+}
