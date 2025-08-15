@@ -29,7 +29,7 @@
   "minimal-style@@ui2@@dark": "#5D5F9E",
   "minimal-style@@ui3@@dark": "#44509D",
   "minimal-style@@ax3@@dark": "#3754A5",
-  "minimal-style@@h2-size": "1.25em",
+  "minimal-style@@h2-size": "1.3em",
   "minimal-style@@h2-color@@dark": "#D27332",
   "minimal-style@@tx1@@dark": "#DFDFDF",
   "minimal-style@@italic-color@@dark": "#91ABD2",
@@ -40,5 +40,9 @@
   "minimal-style@@inline-title-color@@dark": "#CA09B0",
   "minimal-style@@text-formatting@@dark": "#22B3CF",
   "minimal-style@@heading-spacing": "2em",
-  "minimal-style@@p-spacing": "1.75rem"
+  "minimal-style@@p-spacing": "1.75rem",
+  "minimal-style@@h3-size": "1.2em",
+  "minimal-style@@h3-weight": 500,
+  "minimal-style@@h4-size": "1.1em",
+  "minimal-style@@h4-color@@light": "#AC67A0"
 }
